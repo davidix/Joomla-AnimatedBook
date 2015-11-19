@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metadata>
-	<layout title="COM_DAVIDIX_ANIMATEDBOOK_BOOKS_VIEW_DEFAULT_TITLE00000" option="COM_DAVIDIX_ANIMATEDBOOK_BOOKS_VIEW_DEFAULT_DESC">
+	<layout title="Display Book List" option="COM_DAVIDIX_ANIMATEDBOOK_BOOKS_VIEW_DEFAULT_DESC">
         <message>
             <![CDATA[COM_DAVIDIX_ANIMATEDBOOK_BOOKS_VIEW_DEFAULT_DESC]]>
         </message>

@@ -12,7 +12,7 @@ require_once JPATH_COMPONENT_ADMINISTRATOR.'/helpers/davidix_animatedbook.php';
 $controller	= JControllerLegacy::getInstance('Davidix_animatedbook');
 $input = JFactory::getApplication()->input;
 
-if (!JFactory::getUser()->authorise('core.manage', 'com_jdeveloper'))
+if (!JFactory::getUser()->authorise('core.manage', 'com_davidix_animatedbook'))
 {
 	return JError::raiseWarning(404, JText::_('JERROR_ALERTNOAUTHOR'));
 }

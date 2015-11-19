@@ -47,15 +47,15 @@
 		<field
 			name="fromdate"
 			type="calendar"
-			label="JDEVELOPER_TABLE_FILTER_FROMDATE_LABEL"
-			description="JDEVELOPER_TABLE_FILTER_FROMDATE_DESC"
+			label="Davidix_TABLE_FILTER_FROMDATE_LABEL"
+			description="Davidix_TABLE_FILTER_FROMDATE_DESC"
 			onchange="this.form.submit();"
 		/>
 		<field
 			name="todate"
 			type="calendar"
-			label="JDEVELOPER_TABLE_FILTER_TODATE_LABEL"
-			description="JDEVELOPER_TABLE_FILTER_TODATE_DESC"
+			label="Davidix_TABLE_FILTER_TODATE_LABEL"
+			description="Davidix_TABLE_FILTER_TODATE_DESC"
 			onchange="this.form.submit();"
 		/>
 		<field
