@@ -7,12 +7,7 @@
 
 defined("_JEXEC") or die("Restricted access");
 
-/**
- * Item Model for book.
- *
- * @package     Davidix_animatedbook
- * @subpackage  Models
- */
+
 class Davidix_animatedbookModelBook extends JModelAdmin
 {
 	/**
@@ -21,22 +16,10 @@ class Davidix_animatedbookModelBook extends JModelAdmin
 	 */
 	protected $text_prefix = 'COM_DAVIDIX_ANIMATEDBOOK';
 
-	/**
-	 * The type alias for this content type.
-	 *
-	 * @var      string
-	 * @since    3.2
-	 */
+	
 	public $typeAlias = 'com_davidix_animatedbook.book';
 
-	/**
-	 * Method to test whether a record can be deleted.
-	 *
-	 * @param   object    $record    A record object.
-	 *
-	 * @return  boolean  True if allowed to delete the record. Defaults to the permission set in the component.
-	 * @since   1.6
-	 */
+
 	protected function canDelete($record)
 	{
 		if (!empty($record->id))
@@ -189,14 +172,7 @@ class Davidix_animatedbookModelBook extends JModelAdmin
 		return $data;
 	}
 	
-	/**
-	 * Method to get a single record.
-	 *
-	 * @param	integer	The id of the primary key.
-	 *
-	 * @return	mixed	Object on success, false on failure.
-	 * @since	1.6
-	 */
+
 	public function getItem($pk = null)
 	{
 		$pk = (!empty($pk)) ? $pk : (int) $this->getState('Book.id');
@@ -291,13 +267,6 @@ class Davidix_animatedbookModelBook extends JModelAdmin
 		return $this->_item[$pk];
 	}
 	
-	/**
-	 * Increment the hit counter for the item.
-	 *
-	 * @param   integer  $pk  Optional primary key of the item to increment.
-	 *
-	 * @return  boolean  True if successful; false otherwise and internal error set.
-	 */
 	public function hit($pk = 0)
 	{
 		$input = JFactory::getApplication()->input;
