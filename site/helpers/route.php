@@ -5,6 +5,9 @@
  * @license		
  */
 
+
+
+ 
 defined("_JEXEC") or die("Restricted access");
 /**
  * Davidix_animatedbook Component Route Helper
