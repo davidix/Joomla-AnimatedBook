@@ -18,6 +18,7 @@ class Davidix_animatedbookCategories extends JCategories
 {
 	/**
 	 * Constructor
+	 * 
 	 */
 	public function __construct($options = array())
 	{
