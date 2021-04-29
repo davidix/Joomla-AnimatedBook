@@ -266,8 +266,7 @@ class Davidix_animatedbookModelBook extends JModelAdmin
 
 		return $this->_item[$pk];
 	}
-	
-	
+
 	public function hit($pk = 0)
 	{
 		$input = JFactory::getApplication()->input;
